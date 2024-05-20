@@ -1,0 +1,66 @@
+clase 3. 
+para ejecutar el proyecto en React uso el comando npm run dev
+tener en cuenta que tengo que estar en a carpeta que contiene a Rect, en este caso: tienda-de-juegos, ya que lee el package.json
+
+
+	ALGUNAS DIFERENCIAS CON HTML, CSS Y JS
+
+No usar class, sino className
+No usar guiones, sino camelCase EJ: font-size ---->  fontSize
+los style se colocan como ojetos: style={{}}
+
+input e img se abren y cierran en la misma linea:
+<img src="" alt="" />
+
+
+-------------------------------------
+
+clase 4
+
+Prubas Unitarias: JEST prueba por vos un testeo https://jestjs.io/
+
+Es emjor usar un fragment antes que codigo html 
+
+<>
+</>
+
+o sino:
+
+<React.Fragment>
+</React.Fragment>
+
+pero importando 
+import Reacto from "react";
+
+Dentro de la carpeta src SIEMPRE tener una carpeta para los COMPONENTES
+
+Los componentes los escribimos como funciones, preferentemente denominadas igual que el componentes
+ej: ButtonComponent.jsx cotiene a const ButtonComponent = () => {}
+
+Las exportaciones por default nos permiten que TODA la app pueda visualizar el componente exportado
+
+
+A varios les dijo que borremos el eslintrc.cjs
+
+
+
+//------------------- Estado de los componentes
+El estado es el valor que un componente tiene al momento de ejecucion, el cual puede mutar.
+Para crear un estado en React se usa en una funcion especifica que se llama useState, mejor conocida como hook useState.  HOOK
+
+
+///--------------------- After 01
+
+para usar boostrap y font awsome:
+instala desde npm  
+
+intalar npm e importar css de boostrap
+
+Font.
+npm i --save @fortawesome/fontawesome-svg-core
+
+npm i --save @fortawesome/free-solid-svg-icons
+npm i --save @fortawesome/free-regular-svg-icons
+npm i --save @fortawesome/free-brands-svg-icons
+
+npm i --save @fortawesome/react-fontawesome@latest

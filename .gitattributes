@@ -1,0 +1,8 @@
+# Trata todos los archivos de texto como texto y gestiona los finales de línea automáticamente.
+* text=auto
+
+# Añade reglas específicas para archivos que necesiten un tratamiento especial
+*.cjs text eol=lf
+
+# Ignora los cambios en los finales de línea en node_modules
+node_modules/* -text
